@@ -36,3 +36,15 @@ Welcome to my **animated DevOps portfolio website**! This project showcases my s
 
 ## 📁 Folder Structure
 
+📦 devops-portfolio
+┣ 📂 assets
+┃ ┣ 📄 profile.jpg
+┃ ┗ 📄 portfolio-preview.png
+┣ 📄 index.html
+┣ 📄 projects.html
+┣ 📄 skills.html
+┣ 📄 internships.html
+┣ 📄 contact.html
+┣ 📄 style.css
+┣ 📄 script.js
+┗ 📄 README.md
