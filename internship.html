@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Internships | Jay Porwal</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+</head>
+<body>
+<!-- in index.html -->
+<body class="home">
+<!-- in projects.html -->
+<body class="projects">
+<!-- in skills.html -->
+<body class="skills">
+<!-- in internship.html -->
+<body class="internships">
+<!-- in contact.html -->
+<body class="contact">
+
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="internship.html" class="active">Internships</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<h1 class="main-name" data-aos="fade-down">Internships & Experience</h1>
+<p class="intro-description" data-aos="fade-up">
+  A brief look at my hands-on industry training and contributions.
+</p>
+
+<section class="center-content">
+
+  <div class="card" data-aos="fade-up">
+    <h3>DevOps Intern – Elevate Lab</h3>
+    <p><strong>Jan 2024 – Mar 2024</strong></p>
+    <ul>
+      <li>Created CI/CD pipelines using GitHub Actions for Python/Flask apps.</li>
+      <li>Dockerized services and deployed them to AWS EC2 with monitoring.</li>
+      <li>Collaborated on infrastructure setup using Terraform and Linux shell scripting.</li>
+    </ul>
+  </div>
+
+  <div class="card" data-aos="fade-up">
+    <h3>Freelance | Personal Projects</h3>
+    <p><strong>2023 – Present</strong></p>
+    <ul>
+      <li>Hosted static portfolio using AWS S3 + CloudFront.</li>
+      <li>Automated infrastructure setup with reusable Terraform modules.</li>
+    </ul>
+  </div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init({ duration: 1000, once: true });</script>
+</body>
+</html>

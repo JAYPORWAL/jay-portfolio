@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skills | Jay Porwal</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- AOS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+</head>
+<body>
+<!-- in index.html -->
+<body class="home">
+<!-- in projects.html -->
+<body class="projects">
+<!-- in skills.html -->
+<body class="skills">
+<!-- in internship.html -->
+<body class="internships">
+<!-- in contact.html -->
+<body class="contact">
+
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="skills.html" class="active">Skills</a></li>
+    <li><a href="internship.html">Internships</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<h1 class="main-name" data-aos="zoom-in">My Skills</h1>
+<p class="intro-description" data-aos="fade-up">
+  Here's a breakdown of tools and technologies I’ve worked with in the DevOps ecosystem.
+</p>
+
+<section class="center-content">
+
+  <div class="card" data-aos="fade-up">
+    <h3><i class="fas fa-cloud"></i> Platforms & Cloud</h3>
+    <p>AWS (EC2, S3, SES, SNS, Route53, ACM, CloudFront), Azure VM, Storage Accounts</p>
+  </div>
+
+  <div class="card" data-aos="fade-up">
+    <h3><i class="fas fa-tools"></i> DevOps Tools</h3>
+    <p>Git, GitHub, GitHub Actions, GitLab CI, Docker, Terraform, Jenkins, Minikube</p>
+  </div>
+
+  <div class="card" data-aos="fade-up">
+    <h3><i class="fas fa-code"></i> Programming & Scripting</h3>
+    <p>Python, Bash, Shell Scripting, JavaScript</p>
+  </div>
+
+  <div class="card" data-aos="fade-up">
+    <h3><i class="fas fa-globe"></i> Web & Backend</h3>
+    <p>Flask, React.js, Apache, Nginx</p>
+  </div>
+
+  <div class="card" data-aos="fade-up">
+    <h3><i class="fas fa-database"></i> Databases</h3>
+    <p>MySQL, MongoDB, PostgreSQL</p>
+  </div>
+
+</section>
+
+<!-- AOS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init({ duration: 1000, once: true });</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Jay Porwal</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+</head>
+<body>
+<!-- in index.html -->
+<body class="home">
+<!-- in projects.html -->
+<body class="projects">
+<!-- in skills.html -->
+<body class="skills">
+<!-- in internship.html -->
+<body class="internships">
+<!-- in contact.html -->
+<body class="contact">
+
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="internship.html">Internships</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</nav>
+
+<h1 class="main-name" data-aos="zoom-in">Get in Touch</h1>
+<p class="intro-description" data-aos="fade-up">
+  Feel free to contact me about internship opportunities, DevOps projects, or collaboration!
+</p>
+
+<section class="center-content" data-aos="fade-up">
+  <form action="mailto:jayporwal3101@gmail.com" method="POST" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>AOS.init({ duration: 1000, once: true });</script>
+</body>
+</html>
